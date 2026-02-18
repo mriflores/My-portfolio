@@ -177,22 +177,22 @@ services:
 # Portfolio Home Section
 portfolio-home-items:
   - image: "assets/images/portfolio/item-1.png"
-    url: "/2025/05/26/PAMI_VF/"
+    url: "/My-portfolio/2025/05/26/PAMI_VF/"
 
   - image: "assets/images/portfolio/item-2.png"
-    url: "/2024/05/26/PAMI/"
+    url: "/My-portfolio/2024/05/26/PAMI/"
 
   - image: "assets/images/portfolio/item-3.png"
-    url: "/2025/05/26/PAMI_VF/"
+    url: "/My-portfolio/2025/05/26/PAMI_VF/"
 
   - image: "assets/images/portfolio/item-4.png"
-    url: "/2025/05/26/rivinnov/"
+    url: "/My-portfolio/2025/05/26/rivinnov/"
 
   - image: "assets/images/portfolio/item-5.png"
-    url: "/2025/12/12/FPGA/"
+    url: "/My-portfolio/2025/12/12/FPGA/"
 
   - image: "assets/images/portfolio/item-6.png"
-    url: "/2025/11/17/FREE_RTOS/"
+    url: "/My-portfolio/2025/11/17/FREE_RTOS/"
 
 # Portfolio Page
 portfolio-label:
@@ -201,54 +201,54 @@ portfolio-label:
   
 portfolio-items:
   - image: "assets/images/portfolio/item-1.png"
-    url: "/2025/05/26/PAMI_VF/"
+    url: "/My-portfolio/2025/05/26/PAMI_VF/"
     portfolio-type:
       - type: "code"
       - type: "hardware"
 
   - image: "assets/images/portfolio/item-2.png"
-    url: "/2024/05/26/PAMI/"
+    url: "/My-portfolio/2024/05/26/PAMI/"
     portfolio-type:
       - type: "code"
       - type: "hardware"
 
   - image: "assets/images/portfolio/item-3.png"
-    url: "/2025/05/26/PAMI_VF/"
+    url: "/My-portfolio/2025/05/26/PAMI_VF/"
     portfolio-type:
       - type: "hardware"
 
   - image: "assets/images/portfolio/item-6.png"
-    url: "/2025/11/17/FREE_RTOS/"
+    url: "/My-portfolio/2025/11/17/FREE_RTOS/"
     portfolio-type:
       - type: "code"
 
   - image: "assets/images/portfolio/item-5.png"
-    url: "/2025/12/12/FPGA/"
+    url: "/My-portfolio/2025/12/12/FPGA/"
     portfolio-type:
       - type: "code"
 
   - image: "assets/images/portfolio/item-8.png"
-    url: "/2026/01/26/simulateur/"
+    url: "/My-portfolio/2026/01/26/simulateur/"
     portfolio-type:
       - type: "hardware"
 
   - image: "assets/images/portfolio/item-4.png"
-    url: "/2025/05/26/rivinnov/"
+    url: "/My-portfolio/2025/05/26/rivinnov/"
     portfolio-type:
       - type: "hardware"
 
   - image: "assets/images/portfolio/item-9.png"
-    url: "/2023/02/17/ECG/"
+    url: "/My-portfolio/2023/02/17/ECG/"
     portfolio-type:
       - type: "hardware"
 
   - image: "assets/images/portfolio/item-11.png"
-    url: "/2024/05/26/Spot/"
+    url: "/My-portfolio/2024/05/26/Spot/"
     portfolio-type:
       - type: "code"
 
   - image: "assets/images/portfolio/item-12.png"
-    url: "/2025/05/26/low-consumption/"
+    url: "/My-portfolio/2025/05/26/low-consumption/"
     portfolio-type:
       - type: "code"
 
