@@ -1,0 +1,13 @@
+---
+layout: post
+title:  A pretty fun FPGA project
+date:   2025-12-12 10:05:55 +0300
+image:  /assets/images/blog/post-7.jpg
+author: Mario Flores
+tags:   FPGA
+---
+
+**A rather fun FPGA project, the goal was to simulate an entire architecture, so that game modules written in assembler for a RISC-V architecture could be interpreted.**
+
+
+Navigating the architecture of a custom RISC-V processor was a steep learning curve that forced me to master the interaction between the Control Unit and the Operational Part. Implementing the RV32I instruction set required a deep dive into RTL operations, where I had to precisely map data paths for instructions like LUI, ADDI, and branch controls. It was a challenge to manage memory access cycles and ensure that the ALU and Shifter operands were correctly synchronized, but seeing the logic materialize through VHDL synthesis on my Zybo (Zynq-7000) board made the weeks of debugging worth it.

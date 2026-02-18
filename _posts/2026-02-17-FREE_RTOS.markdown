@@ -1,0 +1,13 @@
+---
+layout: post
+title:  Crazy FreeRTOS project
+date:   2025-11-17 10:05:55 +0300
+image:  /assets/images/blog/post-6.jpg
+author: Mario Flores
+tags:   FreeRTOS
+---
+
+
+**This project was a blast. We integrated several sensors with an NXP microcontroller to handle the real-time processing needed to drive our car around the track.**
+
+I absolutely loved working on this project because it brought together so many high-level engineering concepts. We built an autonomous car powered entirely by C, using FreeRTOS to manage the system's complexity through strict task prioritization. For navigation, we used a camera to identify the track edges, deriving the signal to calculate the distance and keep the car centered. To handle the movement, we implemented a proportional controller for velocity, but the real secret was the encoders. By measuring the rotations per second of each wheel, we could detect the speed difference between the two motors in real-time. This feedback loop allowed us to sync the motors perfectly, ensuring the car didn't veer off course and handled the circuit with precision. It was a challenge, but seeing it all work together was incredibly rewarding!

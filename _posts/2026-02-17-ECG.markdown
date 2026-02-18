@@ -1,0 +1,12 @@
+---
+layout: post
+title:  This is my first electronic project!
+date:   2023-02-17 15:05:55 +0300
+image:  /assets/images/blog/post-2.jpg
+author: Mario Flores 
+tags:   Electronics
+---
+
+**I was really excited for this project to work. It was an ECG—one of my first real projects at Polytech Grenoble and I was totally into it. It was incredibly frustrating when it didn't work properly at first because of the noise interference and the filters acting up. However, I ended up learning a lot; it showed me firsthand just how challenging (and rewarding) analog electronics can really be.**
+
+Since those first days at Polytech Grenoble, I’ve realized that building an ECG is basically a battle against all the noises arounds. To make it work, you start by grabbing those tiny heart signals with an instrumentation amplifier—which is crucial because the signal is so faint it’s practically whispering. Then comes the part that gave me the most trouble: filtering. You have to implement a high-pass filter to get rid of the "baseline wander" (that annoying slow drifting of the wave) and a low-pass filter to kill the high-frequency fuzz from your muscles. The ultimate boss, though, is the notch filter, which targets that specific 50Hz or 60Hz hum from the building's power grid. Once you finally tune those stages, the signal goes through an ADC, turning that messy analog struggle into the clean, rhythmic "beep" we all know. The idea was kind of simple, but as you can see the result was different, becuase there were missing some key concepts.

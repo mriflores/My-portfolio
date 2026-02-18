@@ -1,0 +1,44 @@
+title: "Mario Flores Orihuela  Embedded Systems Engineer"
+email: "mario.flores-orihuela@etu.univ-grenoble-alpes.fr"
+description: "Master's student in Computer Science and Electronics for Embedded Systems"
+
+footer_social_links:
+  - icon : "ti-linkedin"
+    link : "https://www.linkedin.com/in/mario-jesus-flores-orihuela-2756621b8"
+  - icon : "ti-github"
+    link : "https://github.com/mriflores"
+
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+plugins:
+  - jekyll-sitemap
+compress_html:
+  clippings: all
+  comments: all
+  startings: [html, head, body]
+
+# Pages Path
+defaults:
+  - scope:
+      path: "_pages"
+    values:
+      permalink: /:basename:output_ext
+
+include:
+  - _pages
+
+sass:
+  sass_dir: assets/scss
+  style: compressed
+
+# Exclude from processing.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE.text
+  - README.md
+  - SECURITY.md

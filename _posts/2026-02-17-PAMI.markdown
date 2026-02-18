@@ -1,0 +1,12 @@
+---
+layout: post
+title:  Part One in PAMI project
+date:   2024-05-26 13:05:55 +0300
+image:  /assets/images/blog/post-10.jpg
+author: Mario Flores
+tags:   Hardware design
+---
+
+**This is the first version of PAMI; it was the first time we worked with all the electronics on our own. We had also made a first attempt at creating a CAD program, but it wasn't very solid; we didn't know the materials well.**
+
+The base unit consisted of an ESP32, which included a linear time-of-flight sensor indicating the distance between objects, an emergency stop button, and a voltage converter, as we used a 9V battery. This version was quite basic, but version 2 was a significant improvement with a more complex design. We managed interrupts, as well as I2C and other protocols such as UART and SPI.

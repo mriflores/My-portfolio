@@ -1,0 +1,12 @@
+---
+layout: post
+title:  This is my first porfessional design for Rivinnov
+date:   2025-05-26 14:05:55 +0300
+image:  /assets/images/blog/post-8.jpg
+author: Mario Flores
+tags:   PCB design
+---
+
+**I built this using Altium Designer. It was quite complicated, as it was the first time I'd built something without using a board as a base, like I do at PAMI. This project remained as a side project and was later used as a brand presentation.**
+
+I really enjoyed working on this project. As you can see, we used RS-482 and CANopen modules. We also added an SD card module to store data and free up several pins for future use. The base unit is an STM32F407VGT. Another experience with Altium; I found it to be a very useful tool, but sometimes it can be a bit overused for certain types of projects, although using OctoPart is quite helpful.

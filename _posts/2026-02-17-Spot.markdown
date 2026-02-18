@@ -1,0 +1,12 @@
+---
+layout: post
+title:  My first Intership! Great experience!
+date:   2024-05-26 13:05:55 +0300
+image:  /assets/images/blog/post-12.jpg
+author: Mario Flores
+tags:  Deep Learning
+---
+
+**My first internship helped me a lot to understand how the professional world works; it was quite good and I had the great opportunity to work with Spot from Boston Dynamics.**
+
+Aquai worked with the YOLOV8 model to recognize images and perform segmentation. It also used a FastSam model to train the first model with Deep Learning for tasks in high-risk factories, as it was intended to cover hazardous areas and detect faults in large metal beams.

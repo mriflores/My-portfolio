@@ -1,0 +1,16 @@
+---
+layout: post
+title:  Part Two in PAMI project
+date:   2025-05-26 13:05:55 +0300
+image:  /assets/images/blog/post-1.jpg
+author: Mario Flores
+tags:   Hardware design
+---
+
+**We carried out this project in collaboration with my friends. It was quite stressful, as we used an ESP32 to learn how to use a different architecture than the STM. It was a complicated challenge, but thanks to our group, we succeeded and achieved a great design. This is part 2 of the first version we created together last year, which we improved, corrected, and used more sensors.**
+
+The PAMI project was a significant challenge in miniaturization and autonomous navigation within the framework of the French Robotics Cup. My work focused on designing a robot capable of executing precise trajectories under strict dimensional constraints. This required a deep integration of hardware and software, where I utilized a microcontroller to orchestrate the movement of DC motors through a digital PID controller. This control loop was essential to achieve smooth acceleration and deceleration curves, ensuring the robot reached its target coordinates with millimetric precision despite the physical variables of the track.
+
+On the technical side, the robot's "eyes" relied on a combination of ToF (Time-of-Flight) sensors and high-resolution encoders. While the encoders provided constant feedback for odometry—allowing the system to calculate its position in real-time—the ToF sensors were critical for obstacle detection and safety. I developed the firmware to handle sensor fusion, ensuring that the robot could react dynamically to its environment without losing its path. This project was a lesson in embedded control, where every line of code directly impacted the physical stability and performance of the machine.
+
+Beyond the electronics, this experience was my first real dive into the synergy between Mechanical Design and Embedded Systems. Using tools like Fusion 360, I helped design a chassis that optimized weight distribution while housing the PCB and battery. This holistic approach taught me that a successful robot isn't just about a good algorithm, but about the perfect balance between high-performance firmware and a robust hardware architecture. Successfully competing in the robotics cup was the ultimate validation of our design, marking a milestone in my journey as an engineer.
